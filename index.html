@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 
 <body>
@@ -33,17 +34,17 @@
             </div>
             <ul class="menu__list">
                 <li class="menu__item"><a href="" class="menu__link">Выпускные фотоальбомы</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Каталог дизайнов</a>
+                <li class="menu__item"><a href="#design" class="menu__link">Каталог дизайнов</a>
                     <ul class="sub-menu">
                         <li class="sub-menu__item"><a href="" class="menu__link">Каталог дизайнов</a></li>
                         <li class="sub-menu__item"><a href="" class="menu__link">Каталог дизайнов</a></li>
                         <li class="sub-menu__item"><a href="" class="menu__link">Каталог дизайнов</a></li>
                     </ul>
                 </li>
-                <li class="menu__item"><a href="" class="menu__link">Фотосъемка</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Частые вопросы</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Цены</a></li>
-                <li class="menu__item"><a href="" class="menu__link" id="menu__link-border">Сделать заявку</a></li>
+                <li class="menu__item"><a href="#foto" class="menu__link">Фотосъемка</a></li>
+                <li class="menu__item"><a href="#print" class="menu__link">Частые вопросы</a></li>
+                <li class="menu__item"><a href="#price" class="menu__link">Цены</a></li>
+                <li class="menu__item"><a href="#delivery" class="menu__link" id="menu__link-border">Сделать заявку</a></li>
             </ul>
         </div>
         <div class="header__itro">
@@ -70,7 +71,7 @@
     <div class="main">
         <div class="design">
             <div class="main__title">Модный дизайн</div>
-            <div class="main__subtitle">Лучшие креативные дизайнеры</div>
+            <div class="main__subtitle"  id="design">Лучшие креативные дизайнеры</div>
             <div class="main__img">
                 <div class="main__item">
                     <div class="main__item-img" id="center">
@@ -110,7 +111,7 @@
         </div>
         <div class="foto">
             <div class="main__title">Профессиональная фотосъемка</div>
-            <div class="main__subtitle">Мастера портретной и репортажной фотографии</div>
+            <div class="main__subtitle"  id="foto">Мастера портретной и репортажной фотографии</div>
             <div class="main__img">
                 <div class="main__item">
                     <div class="main-2__item-img" id="center">
@@ -152,7 +153,7 @@
         </div>
         <div class="print">
             <div class="main__title">Лучшие материалы & Качественная печать</div>
-            <div class="main__subtitle">Дизайнерская бумага ведущих мировых брендов</div>
+            <div class="main__subtitle" id="print">Дизайнерская бумага ведущих мировых брендов</div>
             <div class="main__img">
                 <div class="main__item">
                     <div class="main__item-img" id="center">
@@ -192,7 +193,7 @@
         </div>
         <div class="price">
             <div class="main__title">Доступная цена</div>
-            <div class="main__subtitle">Фотоальбомы от 1800 руб. до 3000 руб.</div>
+            <div class="main__subtitle" id="price">Фотоальбомы от 1800 руб. до 3000 руб.</div>
             <div class="main__img">
                 <div class="main__item">
                     <div class="price__title">от <span class="price__sum">2000</span> руб.</div>
@@ -223,9 +224,9 @@
                 adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
                 quaerat voluptatem.</div>
         </div>
-        <div class="delivery">
+        <div class="delivery" >
             <div class="main__title">Работаем по всей России и СНГ</div>
-            <div class="main__subtitle">Доставка во все города</div>
+            <div class="main__subtitle" id="delivery">Доставка во все города</div>
             <div class="main__img">
                 <div class="main__item">
                     <div class="main__item-img" id="center">
@@ -300,6 +301,12 @@
             </div>
         </div>
     </div>
+    <!--Scroll BTN-->
+    <div class="scrollup">
+        <!--Иконка fa-chevron-up (Font Awesome) -->
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
